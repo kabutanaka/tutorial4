@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: org.example.CalcTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 s - in org.example.CalcTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.019 s <<< FAILURE! - in org.example.CalcTest
+testAddition  Time elapsed: 0.013 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4> but was: <5>
+	at org.example.CalcTest.testAddition(CalcTest.java:11)
+
